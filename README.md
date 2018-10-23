@@ -10,43 +10,43 @@ Awesome-Pytorch-list
 </p>
 
 
-## Pytorch & related libraries
+## Pytorch相关库
 
-1. [pytorch](http://pytorch.org): Tensors and Dynamic neural networks in Python with strong GPU acceleration.
+1. [pytorch](http://pytorch.org): pytorch官网--GPU增强的张量和动态神经网络库.
 
-### NLP & Speech Processing:
+### 自然语言处理和语音处理:
 
-1. [pytorch text](https://github.com/pytorch/text): Torch text related contents.  
-2. [pytorch-seq2seq](https://github.com/IBM/pytorch-seq2seq): A framework for sequence-to-sequence (seq2seq) models implemented in PyTorch.  
-3. [anuvada](https://github.com/Sandeep42/anuvada): Interpretable Models for NLP using PyTorch.
-4. [audio](https://github.com/pytorch/audio): simple audio I/O for pytorch.
-5. [loop](https://github.com/facebookresearch/loop): A method to generate speech across multiple speakers
-6. [fairseq-py](https://github.com/facebookresearch/fairseq-py): Facebook AI Research Sequence-to-Sequence Toolkit written in Python.
-7. [speech](https://github.com/awni/speech): PyTorch ASR Implementation.
-8. [OpenNMT-py](https://github.com/OpenNMT/OpenNMT-py): Open-Source Neural Machine Translation in PyTorch http://opennmt.net 
-9. [neuralcoref](https://github.com/huggingface/neuralcoref): State-of-the-art coreference resolution based on neural nets and spaCy huggingface.co/coref
-10. [sentiment-discovery](https://github.com/NVIDIA/sentiment-discovery): Unsupervised Language Modeling at scale for robust sentiment classification.
-11. [MUSE](https://github.com/facebookresearch/MUSE): A library for Multilingual Unsupervised or Supervised word Embeddings
-12. [nmtpytorch](https://github.com/lium-lst/nmtpytorch): Neural Machine Translation Framework in PyTorch.
-13. [pytorch-wavenet](https://github.com/vincentherrmann/pytorch-wavenet): An implementation of WaveNet with fast generation
-14. [Tacotron-pytorch](https://github.com/soobinseo/Tacotron-pytorch): Tacotron: Towards End-to-End Speech Synthesis.
-15. [AllenNLP](https://github.com/allenai/allennlp): An open-source NLP research library, built on PyTorch.
-16. [PyTorch-NLP](https://github.com/PetrochukM/PyTorch-NLP): Text utilities and datasets for PyTorch pytorchnlp.readthedocs.io
-17. [quick-nlp](https://github.com/outcastofmusic/quick-nlp): Pytorch NLP library based on FastAI. 
-18. [TTS](https://github.com/mozilla/TTS): Deep learning for Text2Speech
-19. [LASER](https://github.com/facebookresearch/LASER): Language-Agnostic SEntence Representations
-20. [pyannote-audio](https://github.com/pyannote/pyannote-audio): Neural building blocks for speaker diarization: speech activity detection, speaker change detection, speaker embedding
-21. [gensen](https://github.com/Maluuba/gensen): Learning General Purpose Distributed Sentence Representations via Large Scale Multi-task Learning.
-22. [translate](https://github.com/pytorch/translate): Translate - a PyTorch Language Library.
-23. [espnet](https://github.com/espnet/espnet): End-to-End Speech Processing Toolkit espnet.github.io/espnet
-24. [pythia](https://github.com/facebookresearch/pythia): A software suite for Visual Question Answering
-25. [UnsupervisedMT](https://github.com/facebookresearch/UnsupervisedMT): Phrase-Based & Neural Unsupervised Machine Translation.
-26. [jiant](https://github.com/jsalt18-sentence-repl/jiant): The jiant sentence representation learning toolkit. 
+1. [pytorch text](https://github.com/pytorch/text): Torch 文本相关功能.  
+2. [pytorch-seq2seq](https://github.com/IBM/pytorch-seq2seq): 一个序列转换框架(seq2seq翻译框架)
+3. [anuvada](https://github.com/EdGENetworks/anuvada): 一个致力于提供可解释性的文本分类模型
+4. [audio](https://github.com/pytorch/audio): 为pytorch提供简单的音频输入输出接口
+5. [loop](https://github.com/facebookresearch/loop): （从文本）语音生成模型
+6. [fairseq-py](https://github.com/facebookresearch/fairseq-py): Facebook官方序列转换框架(Sequence-to-Sequence)
+7. [speech](https://github.com/awni/speech): 语音识别 ASR
+8. [OpenNMT-py](https://github.com/OpenNMT/OpenNMT-py): 开源神经翻译机（序列转换框架）http://opennmt.net 
+9. [neuralcoref](https://github.com/huggingface/neuralcoref): 基于神经网络和spaCy huggingface.co/coref 的指代消歧方案(历史最佳) 
+10. [sentiment-discovery](https://github.com/NVIDIA/sentiment-discovery): 基于无监督语言模型的大规模、稳健性的的情绪分类模型
+11. [MUSE](https://github.com/facebookresearch/MUSE): 多语言无监督/有监督的词向量
+12. [nmtpytorch](https://github.com/lium-lst/nmtpytorch): PyTorch神经翻译框架（序列转换框架）
+13. [pytorch-wavenet](https://github.com/vincentherrmann/pytorch-wavenet): 快速语音生成 WaveNet 的实现
+14. [Tacotron-pytorch](https://github.com/soobinseo/Tacotron-pytorch): 端到端语音合成的 PyTorch 实现
+15. [AllenNLP](https://github.com/allenai/allennlp): 基于 PyTorch的开源 NLP 研究库
+16. [PyTorch-NLP](https://github.com/PetrochukM/PyTorch-NLP): pytorch文本和数据处理工具 pytorchnlp.readthedocs.io
+17. [quick-nlp](https://github.com/outcastofmusic/quick-nlp): 基于FastAI的pytorch自然语言处理库
+18. [TTS](https://github.com/mozilla/TTS): （从文本）语音生成模型
+19. [LASER](https://github.com/facebookresearch/LASER): 语言无关的句子表征的 PyTorch 实现
+20. [pyannote-audio](https://github.com/pyannote/pyannote-audio): 说话人语音追踪：语音激活检测、说话人变化检测、说话人嵌入
+21. [gensen](https://github.com/Maluuba/gensen): 大规模多任务学习的通用分布式句子表示
+22. [translate](https://github.com/pytorch/translate): 神经翻译框架（序列转换框架）
+23. [espnet](https://github.com/espnet/espnet): 端到端语音生成工具 espnet.github.io/espnet
+24. [pythia](https://github.com/facebookresearch/pythia):由FAIR A-STAR team开发的模块化视觉问答框架
+25. [UnsupervisedMT](https://github.com/facebookresearch/UnsupervisedMT): 基于短语和神经的无监督机器翻译
+26. [jiant](https://github.com/jsalt18-sentence-repl/jiant): 句子表示学习工具包 
 
-### CV:
+### 计算机视觉:
 
-1. [pytorch vision](https://github.com/pytorch/vision): Datasets, Transforms and Models specific to Computer Vision.
-2. [pt-styletransfer](https://github.com/tymokvo/pt-styletransfer): Neural style transfer as a class in PyTorch.
+1. [pytorch vision](https://github.com/pytorch/vision): 计算机视觉领域的数据集、数据转换和模型仓库
+2. [pt-styletransfer](https://github.com/tymokvo/pt-styletransfer): 画面风格转换模型
 3. [OpenFacePytorch](https://github.com/thnkim/OpenFacePytorch):  PyTorch module to use OpenFace's nn4.small2.v1.t7 model
 4. [img_classification_pk_pytorch](https://github.com/felixgwu/img_classification_pk_pytorch): Quickly comparing your image classification models with the state-of-the-art models (such as DenseNet, ResNet, ...)
 5. [SparseConvNet](https://github.com/facebookresearch/SparseConvNet): Submanifold sparse convolutional networks.
