@@ -75,15 +75,15 @@ Awesome-Pytorch-list
 ### 其他库:
 
 1. [pytorch extras](https://github.com/mrdrozdov/pytorch-extras): 一些pytorch扩展特性
-2. [functional zoo](https://github.com/szagoruyko/functional-zoo): PyTorch, unlike lua torch, has autograd in it's core, so using modular structure of torch.nn modules is not necessary, one can easily allocate needed Variables and write a function that utilizes them, which is sometimes more convenient. This repo contains model definitions in this functional way, with pretrained weights for some models. 
-3. [torch-sampling](https://github.com/ncullen93/torchsample): This package provides a set of transforms and data structures for sampling from in-memory or out-of-memory data. 
-4. [torchcraft-py](https://github.com/deepcraft/torchcraft-py): Python wrapper for TorchCraft, a bridge between Torch and StarCraft for AI research.
-5. [aorun](https://github.com/ramon-oliveira/aorun): Aorun intend to be a Keras with PyTorch as backend. 
-6. [logger](https://github.com/oval-group/logger): A simple logger for experiments.
-7. [PyTorch-docset](https://github.com/iamaziz/PyTorch-docset): PyTorch docset! use with Dash, Zeal, Velocity, or LovelyDocs.  
-8. [convert_torch_to_pytorch](https://github.com/clcarwin/convert_torch_to_pytorch): Convert torch t7 model to pytorch model and source.
-9. [pretrained-models.pytorch](https://github.com/Cadene/pretrained-models.pytorch): The goal of this repo is to help to reproduce research papers results.  
-10. [pytorch_fft](https://github.com/locuslab/pytorch_fft): PyTorch wrapper for FFTs
+2. [functional zoo](https://github.com/szagoruyko/functional-zoo): Pytorch 和 Tensorflow 的模型定义和预训练权重
+3. [torch-sampling](https://github.com/ncullen93/torchsample): 提供了一组数据转换和数据结构，用于从内存或内存外数据中抽样
+4. [torchcraft-py](https://github.com/deepcraft/torchcraft-py): 一个为了把星际争霸用于人工智能研究Python包
+5. [aorun](https://github.com/ramon-oliveira/aorun): 期望把python作为Keras的一个后端
+6. [logger](https://github.com/oval-group/logger): 一个简单的实验记录器
+7. [PyTorch-docset](https://github.com/iamaziz/PyTorch-docset): PyTorch文档工具，使用 Dash, Zeal, Velocity或LovelyDocs
+8. [convert_torch_to_pytorch](https://github.com/clcarwin/convert_torch_to_pytorch): 将torch的t7火炬模型转换为pytorch模型和资源
+9. [pretrained-models.pytorch](https://github.com/Cadene/pretrained-models.pytorch): 帮助复制研究论文的结果
+10. [pytorch_fft](https://github.com/locuslab/pytorch_fft): FFTs 的 PyTorch 包装
 11. [caffe_to_torch_to_pytorch](https://github.com/fanq15/caffe_to_torch_to_pytorch)
 12. [pytorch-extension](https://github.com/sniklaus/pytorch-extension): This is a CUDA extension for PyTorch which computes the Hadamard product of two tensors.
 13. [tensorboard-pytorch](https://github.com/lanpa/tensorboard-pytorch): This module saves PyTorch tensors in tensorboard format for inspection. Currently supports scalar, image, audio, histogram features in tensorboard.
