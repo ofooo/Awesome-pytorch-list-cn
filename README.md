@@ -47,35 +47,34 @@ Awesome-Pytorch-list
 
 1. [pytorch vision](https://github.com/pytorch/vision): 计算机视觉领域的数据集、数据转换和模型仓库
 2. [pt-styletransfer](https://github.com/tymokvo/pt-styletransfer): 画面风格转换模型
-3. [OpenFacePytorch](https://github.com/thnkim/OpenFacePytorch):  PyTorch module to use OpenFace's nn4.small2.v1.t7 model
-4. [img_classification_pk_pytorch](https://github.com/felixgwu/img_classification_pk_pytorch): Quickly comparing your image classification models with the state-of-the-art models (such as DenseNet, ResNet, ...)
-5. [SparseConvNet](https://github.com/facebookresearch/SparseConvNet): Submanifold sparse convolutional networks.
-6. [Convolution_LSTM_pytorch](https://github.com/automan000/Convolution_LSTM_pytorch): A multi-layer convolution LSTM module
-7. [face-alignment](https://github.com/1adrianb/face-alignment): :fire: 2D and 3D Face alignment library build using pytorch adrianbulat.com
-8. [pytorch-semantic-segmentation](https://github.com/ZijunDeng/pytorch-semantic-segmentation): PyTorch for Semantic Segmentation.
-9. [RoIAlign.pytorch](https://github.com/longcw/RoIAlign.pytorch): This is a PyTorch version of RoIAlign. This implementation is based on crop_and_resize and supports both forward and backward on CPU and GPU.
-10. [pytorch-cnn-finetune](https://github.com/creafz/pytorch-cnn-finetune): Fine-tune pretrained Convolutional Neural Networks with PyTorch.
-11. [detectorch](https://github.com/ignacio-rocco/detectorch): Detectorch - detectron for PyTorch
-12. [Augmentor](https://github.com/mdbloice/Augmentor): Image augmentation library in Python for machine learning. http://augmentor.readthedocs.io
-13. [s2cnn](https://github.com/jonas-koehler/s2cnn): 
-This library contains a PyTorch implementation of the SO(3) equivariant CNNs for spherical signals (e.g. omnidirectional cameras, signals on the globe)
-14. [PyTorchCV](https://github.com/CVBox/PyTorchCV): A PyTorch-Based Framework for Deep Learning in Computer Vision. 
+3. [OpenFacePytorch](https://github.com/thnkim/OpenFacePytorch):  使用 OpenFace's nn4.small2.v1.t7 模型的 PyTorch 模块
+4. [img_classification_pk_pytorch](https://github.com/felixgwu/img_classification_pk_pytorch): 快速对比你的图像分类模型和历史最佳模型（例如 DenseNet、ResNet，等）
+5. [SparseConvNet](https://github.com/facebookresearch/SparseConvNet): 子流形稀疏卷积网络
+6. [Convolution_LSTM_pytorch](https://github.com/automan000/Convolution_LSTM_pytorch): 多层卷积 LSTM 模块
+7. [face-alignment](https://github.com/1adrianb/face-alignment): :基于 PyTorch 的 2D 和 3D 人脸对齐库
+8. [pytorch-semantic-segmentation](https://github.com/ZijunDeng/pytorch-semantic-segmentation): 语义分割的 PyTorch 实现
+9. [RoIAlign.pytorch](https://github.com/longcw/RoIAlign.pytorch): 一个 PyTorch 版本的 RoIAlign。基于 crop_and_resize，并支持 CPU 和 GPU 上的前向传播、反向传播
+10. [pytorch-cnn-finetune](https://github.com/creafz/pytorch-cnn-finetune): PyTorch 实现的微调预训练卷积神经网络
+11. [detectorch](https://github.com/ignacio-rocco/detectorch):PyTorch 实现的 detectron 图像分割模型
+12. [Augmentor](https://github.com/mdbloice/Augmentor): Python 图像增强库
+13. [s2cnn](https://github.com/jonas-koehler/s2cnn): 一个用于球面信号（例如，全向摄像机、地球信号等）的 SO(3) 等变 CNN 的 PyTorch 实现
+14. [PyTorchCV](https://github.com/CVBox/PyTorchCV): 一个基于pytorch的计算机视觉库 
 
 
-### Probabilistic/Generative Libraries:
+### 概率/生成库:
 
-1. [ptstat](https://github.com/stepelu/ptstat): Probabilistic Programming and Statistical Inference in PyTorch
-2. [pyro](https://github.com/uber/pyro): Deep universal probabilistic programming with Python and PyTorch http://pyro.ai
-3. [probtorch](https://github.com/probtorch/probtorch): Probabilistic Torch is library for deep generative models that extends PyTorch.
-4. [paysage](https://github.com/drckf/paysage): Unsupervised learning and generative models in python/pytorch.
-5. [pyvarinf](https://github.com/ctallec/pyvarinf): Python package facilitating the use of Bayesian Deep Learning methods with Variational Inference for PyTorch. 
-6. [pyprob](https://github.com/probprog/pyprob): A PyTorch-based library for probabilistic programming and inference compilation.
-7. [mia](https://github.com/spring-epfl/mia): A library for running membership inference attacks against ML models. 
+1. [ptstat](https://github.com/stepelu/ptstat): PyTorch 上的概率编程和统计推理
+2. [pyro](https://github.com/uber/pyro): 基于 PyTorch 和 Python 的深度全局概率编程 http://pyro.ai
+3. [probtorch](https://github.com/probtorch/probtorch): 深度生成模型的 PyTorch 扩展库
+4. [paysage](https://github.com/drckf/paysage): 无监督学习和生成模型
+5. [pyvarinf](https://github.com/ctallec/pyvarinf): 便于在 PyTorch 中利用变分推理执行贝叶斯深度学习方法
+6. [pyprob](https://github.com/probprog/pyprob): 基于 PyTorch 的概率编程和推理编译库
+7. [mia](https://github.com/spring-epfl/mia): 对机器学习模型运行成员推理攻击的库
 
 
-### Other libraries:
+### 其他库:
 
-1. [pytorch extras](https://github.com/mrdrozdov/pytorch-extras): Some extra features for pytorch.    
+1. [pytorch extras](https://github.com/mrdrozdov/pytorch-extras): 一些pytorch扩展特性
 2. [functional zoo](https://github.com/szagoruyko/functional-zoo): PyTorch, unlike lua torch, has autograd in it's core, so using modular structure of torch.nn modules is not necessary, one can easily allocate needed Variables and write a function that utilizes them, which is sometimes more convenient. This repo contains model definitions in this functional way, with pretrained weights for some models. 
 3. [torch-sampling](https://github.com/ncullen93/torchsample): This package provides a set of transforms and data structures for sampling from in-memory or out-of-memory data. 
 4. [torchcraft-py](https://github.com/deepcraft/torchcraft-py): Python wrapper for TorchCraft, a bridge between Torch and StarCraft for AI research.
